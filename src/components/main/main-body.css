@@ -35,6 +35,8 @@
   padding-left: 10px;
   font-size: 16px;
   border-radius: 8px;
+  border: none;
+  outline: none;
 }
 .paragraph{
   max-width: 531px;
@@ -51,7 +53,8 @@
   border-radius: 11px;
   color: #fff;
   margin-top: 14px;
-
+  border: none;
+  outline: none;
 }
 
 @media screen and (max-width:683px) {
