@@ -1,0 +1,25 @@
+.fotter {
+  position: absolute ;
+  bottom: 0;
+  width: 100%;
+  height: 69px;
+  background-color: #3E3E3E;
+  display: flex;
+  align-items: center;
+}
+
+.fotter h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 85px;
+}
+
+@media screen and (max-width:683px) {
+  .fotter{
+    justify-content: center;
+  }
+  .fotter h2 {
+    margin: 0;
+  }
+}
